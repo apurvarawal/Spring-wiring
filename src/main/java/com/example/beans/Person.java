@@ -15,4 +15,8 @@ public class Person {
     public Vehicle getVehicle(){
         return vehicle;
     }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
 }

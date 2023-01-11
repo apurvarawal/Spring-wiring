@@ -7,7 +7,13 @@ import org.springframework.stereotype.Component;
 public class Animal {
     private String name = "Bella";
 
+    //for Example 4
     @Autowired
+    public Animal(Food food){
+        this.food = food;
+    }
+
+    //@Autowired {Uncomment this for Example 3
     private Food food;
 
     public String getName(){
